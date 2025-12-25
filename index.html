@@ -11,6 +11,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="index, follow">
   <link rel="icon" href="./Assets/Images/Logo.png" type="image/png">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <!-- Open Graph -->
   <meta property="og:title" content="Kuberan Foods Madurai">
@@ -53,10 +54,11 @@
         <div class="row g-4">
 
           <!-- Idly -->
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000">
             <div class="card h-100 shadow-sm border-0">
               <div class="card-body text-center">
                 <h5>Idly</h5>
+                <img src="./Assets/Images/idly.avif" alt="" class="img-fluid pt-2 pb-2 food">
                 <p class="small fw-semibold">Soft & fluffy steamed delight</p>
                 <p class="small">
                   Soft and fluffy steamed idlies made from perfectly fermented rice and lentil batter.
@@ -69,12 +71,12 @@
 
 
           <!-- Ven Pongal -->
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000">
             <div class="card h-100 shadow-sm border-0">
               <div class="card-body text-center">
                 <h5>Ven Pongal</h5>
+                <img src="./Assets/Images/venpongal.jpg" alt="" class="img-fluid pt-2 pb-2 food">
                 <p class="small fw-semibold">Classic South Indian comfort food</p>
-
                 <p class="small">
                   Traditional Ven Pongal made with rice and moong dal, slow-cooked with ghee,
                   black pepper, cumin, and cashews. Mildly spiced, rich, and comforting,
@@ -86,10 +88,11 @@
 
 
           <!-- Tomato Rice -->
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000">
             <div class="card h-100 shadow-sm border-0">
               <div class="card-body text-center">
                 <h5>Tomato Rice</h5>
+                <img src="./Assets/Images/TomatoRice.jpg" alt="" class="img-fluid pt-2 pb-2 food">
                 <p class="small fw-semibold">Tangy and flavorful rice dish</p>
                 <p class="small">
                   Aromatic tomato rice prepared with ripe tomatoes, fragrant rice,
@@ -101,10 +104,11 @@
           </div>
 
           <!-- Puliyotharai -->
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000">
             <div class="card h-100 shadow-sm border-0">
               <div class="card-body text-center">
                 <h5>Puliyotharai</h5>
+                <img src="./Assets/Images/puli.webp" alt="" class="img-fluid pt-2 pb-2 food">
                 <p class="small fw-semibold">Traditional tamarind rice</p>
                 <p class="small">
                   Authentic Puliyotharai made using tamarind extract, roasted spices,
@@ -116,10 +120,11 @@
           </div>
 
           <!-- Malli Rice -->
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000">
             <div class="card h-100 shadow-sm border-0">
               <div class="card-body text-center">
                 <h5>Malli Rice</h5>
+                <img src="./Assets/Images/malli.jpg" alt="" class="img-fluid pt-2 pb-2 food">
                 <p class="small fw-semibold">Fresh coriander flavored rice</p>
                 <p class="small">
                   Fragrant Malli Rice prepared with fresh coriander leaves,
@@ -131,10 +136,11 @@
           </div>
 
           <!-- Chapati -->
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000">
             <div class="card h-100 shadow-sm border-0">
               <div class="card-body text-center">
                 <h5>Chapati</h5>
+                <img src="./Assets/Images/chappathi.jpg" alt="" class="img-fluid pt-2 pb-2 food">
                 <p class="small fw-semibold">Soft whole wheat flatbread</p>
                 <p class="small">
                   Soft and freshly prepared chapatis made from high-quality whole wheat flour.
@@ -262,7 +268,11 @@
     });
   </script>
 
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
