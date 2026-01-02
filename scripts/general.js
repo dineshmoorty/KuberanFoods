@@ -56,6 +56,7 @@ function renderSection(items, containerId) {
       <div class="card h-100 shadow-sm border-0">
         <div class="card-body text-center">
           <h5>${item.Title}</h5>
+          <img src="./Assets/Images/veg.png" alt="veg_symbol" class="vegSymbol" width="25px" >
           <img src="${item.image}" alt="${item.Title}"
                class="img-fluid pt-2 pb-2 food">
           <p class="small fw-semibold">${item.desc}</p>
